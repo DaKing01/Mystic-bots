@@ -11,8 +11,8 @@ import Log from './utils/log';
 import { PostStats } from 'api-mystic-stats';
 
 const stats = new PostStats({
-    apiToken: 'dbf4a495-617e-4a65-a76b-c4c300025cc9',
-    botToken: 'ODM4MzM0NzQ1ODI1MTE2MTkx.YI5mEg.fqgSfR2QiWdH_NGW9Lv1ginP1oo'
+    apiToken: '',
+    botToken: ''
   });
   
   stats.on('postStats', (res) => console.log(res.ok ? 'Posted stats.' : 'Failed to post stats.'));
